@@ -1,0 +1,4 @@
+DATA ASSOCIATION
+- "When one model is linked to another model through an ID. This means that if you have a user, they will create posts. When a post is created, it will be created by the user. So what we do when two sets of data are related to each other, is that we assign the ID of one model's data to the other model's data, and vice versa."
+
+- In MongoDB, this is typically achieved through referencing or embedding documents, where you store the ID of one document in another document to establish a relationship between them. This allows you to retrieve related data efficiently and maintain consistency in your database.
